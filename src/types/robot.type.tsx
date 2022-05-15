@@ -6,9 +6,9 @@ export interface RobotData {
         hasWheels: boolean,
         hasTracks: boolean,
         numberOfRotors: number,
-        Colour: 'blue' | 'red' | 'black' | 'white',
+        colour: string ,
     },
-    statuses: ("on fire" | "rusty" | "loose screw" | "paint scratched")[],
+    statuses: string[],
 }
 
 export interface RobotDefaultState {

@@ -6,6 +6,7 @@ import RobotList from './components/organisms/robot-list.component';
 function App() {
   return (
     <div className="App">
+      <div>Robot List</div>
       <RobotList />
     </div>
   );

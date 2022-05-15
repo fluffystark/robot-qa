@@ -8,7 +8,7 @@ const defaultState = {
     hasRecycled: false,
 };
 
-function uiReducer(state : RobotDefaultState = defaultState, action: any) {
+function robotReducer(state : RobotDefaultState = defaultState, action: any) {
     switch (action.type) {
         case ActionTypes.SET_ROBOTS_DATA:
             return {
@@ -18,8 +18,11 @@ function uiReducer(state : RobotDefaultState = defaultState, action: any) {
             };
         case ActionTypes.DO_EXTINGUISH:
             const list = [...state.robotList];
-            list[action.data].statuses = list[action.data].statuses.filter((status: string) => status !== "on fire");
-            console.log(list);
+            const statuses = list[action.id].statuses.filter((status: string) => status !== "on fire");
+            list[action.id] = {
+                ...list[action.id],
+                statuses: [...statuses]
+            }
             return {
                 ...state,
                 robotList: [
@@ -27,9 +30,14 @@ function uiReducer(state : RobotDefaultState = defaultState, action: any) {
                     // remove the on fire on the robot with the id passed 'action.id'
                 ],
             };
+        case ActionTypes.CHECK_EXTINGUISH:
+            return {
+                ...state,
+                hasExtinguished: true,
+            };
         default:
             return state;
     }
 }
 
-export default uiReducer;
+export default robotReducer;

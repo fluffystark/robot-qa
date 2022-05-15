@@ -33,6 +33,7 @@ module.exports = () => {
         statuses: [{
             values: ['on fire', 'rusty', 'loose screw', 'paint scratched'],
             length: 4,
+            unique : true, 
             fixedLength: false
         }]
     };
