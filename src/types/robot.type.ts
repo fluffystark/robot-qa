@@ -1,4 +1,4 @@
-export default interface RobotData {
+export interface RobotData {
     id: string,
     name: string,
     configuration: {
@@ -8,7 +8,12 @@ export default interface RobotData {
         numberOfRotors: number,
         Colour: 'blue' | 'red' | 'black' | 'white',
     },
-    statuses: {
-        [index: string]: 'on fire' | 'rusty' | 'loose screw' | 'paint scratched'
-    },
+    statuses: ("on fire" | "rusty" | "loose screw" | "paint scratched")[],
+}
+
+export interface RobotDefaultState {
+    robotList: Array<RobotData>,
+    retrievedBatch: boolean,
+    hasExtinguished: boolean,
+    hasRecycled: boolean,
 }

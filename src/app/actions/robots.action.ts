@@ -7,7 +7,7 @@ export function setRobotData(data: any) {
     };
 }
 
-export function doExtinguish(id: string) {
+export function doExtinguish(id: number) {
     return {
         type: ActionTypes.DO_EXTINGUISH,
         id,

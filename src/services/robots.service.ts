@@ -1,5 +1,5 @@
 import http from "../http-common";
-import RobotData from "../types/robot.type"
+import { RobotData } from "../types/robot.type"
 
 class RobotDataService {
   getAll() {

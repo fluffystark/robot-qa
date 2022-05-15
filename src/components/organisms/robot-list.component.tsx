@@ -2,23 +2,22 @@ import React, { FC, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { RootState } from '../../app/store';
 import RobotsDataService from "../../services/robots.service";
-import RobotData from '../../types/robot.type';
-import { setRobotData } from "../../app/actions/robots.action";
+import { RobotData } from '../../types/robot.type';
+import { setRobotData, doExtinguish } from "../../app/actions/robots.action";
 
 type Props = {};
 
 const RobotList: FC<Props> = (props) => {
-    const { robots } = useSelector<RootState, any>((state) => state.robots);
+    const { robotList, retrievedBatch, hasExtinguished, hasRecycled } = useSelector<RootState, any>((state) => state.robots);
     const dispatch = useDispatch();
 
     const retrieveRobots = () => {
         RobotsDataService.getAll()
           .then((response: any) => {
-              const robotList = response.data.slice(0, 10);
+              const robots = response.data.slice(0, 10);
               dispatch(
-                  setRobotData(robotList)
+                  setRobotData(robots)
               );
-              console.log(robotList);
           })
           .catch((e: Error) => {
             console.log(e);
@@ -27,6 +26,25 @@ const RobotList: FC<Props> = (props) => {
 
     // qa stage 1 - extinguish on fire robots
     // call an API for each robot
+    const extinguishRobots = () => {
+        console.log(robotList);
+        robotList.forEach((robot: RobotData, index: number) => {
+            const hasSentience = robot.configuration.hasSentience;
+            const onFire = robot.statuses.find((status: string) => status === "on fire");
+            if (hasSentience && onFire) {
+                console.log("check");
+                RobotsDataService.extinguish(robot.id)
+                  .then((response: any) => {
+                        dispatch(
+                            doExtinguish(index)
+                        );
+                  })
+                  .catch((e: Error) => {
+                    console.log(e);
+                  });
+            }
+        });
+    }
 
     // qa stage 2 - recycling robots
     // provide an array to an API
@@ -38,11 +56,22 @@ const RobotList: FC<Props> = (props) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
+    useEffect(() => {
+        if (retrievedBatch) {
+            if (!hasExtinguished) {
+                extinguishRobots();
+            }
+        }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [retrievedBatch]);
+
     return (
-        <div>
+        <div style={{textAlign: "left"}}>
             {
-                robots && robots.map((robot: RobotData, index: number) => (
-                    <div>{robot.name}</div>
+                robotList && robotList.map((robot: RobotData, index: number) => (
+                    <div>
+                        {robot.name} {robot.configuration.hasSentience.toString()} {[...robot.statuses].map((status: string, index: number) => `${status} `)}
+                    </div>
                 ))
             }
         </div>
