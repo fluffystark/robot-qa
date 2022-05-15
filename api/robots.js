@@ -37,9 +37,9 @@ module.exports = () => {
         }]
     };
 
-    const data = mocker().schema('data', format, 10).buildSync();
+    const data = mocker().schema('data', format, 100).buildSync();
 
     console.log(data);
 
-    return data;
+    return {robots: data.data};
   }
