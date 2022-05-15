@@ -20,3 +20,9 @@ export function doRecycle(data: Array<string>) {
         data,
     };
 }
+
+export function checkExtinguish() {
+    return {
+        type: ActionTypes.CHECK_EXTINGUISH
+    };
+}
