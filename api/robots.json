@@ -1,1202 +1,1204 @@
-[
-  {
-    "id": "4a1cd335-656e-5f2b-b34f-d79266886eca",
-    "name": "Simone",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": false,
-      "hasTracks": true,
-      "numberOfRotors": 1,
-      "Colour": "blue"
-    },
-    "statuses": ["rusty", "loose screw", "loose screw"]
-  },
-  {
-    "id": "f89dc624-a93e-585a-b3b0-a1f0c2abee96",
-    "name": "Narciso",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": false,
-      "hasTracks": false,
-      "numberOfRotors": 4,
-      "Colour": "blue"
-    },
-    "statuses": ["loose screw", "paint scratched", "rusty", "on fire"]
-  },
-  {
-    "id": "63d4e8df-35bf-5ed7-b1d2-b7e25fa4d3c5",
-    "name": "Cora",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 15,
-      "Colour": "blue"
-    },
-    "statuses": ["loose screw"]
-  },
-  {
-    "id": "d8992292-c247-55d9-b5e0-31fc645cbf68",
-    "name": "Lily",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": true,
-      "numberOfRotors": 4,
-      "Colour": "black"
-    },
-    "statuses": ["loose screw"]
-  },
-  {
-    "id": "cebd6aaf-2f51-525b-ae5b-b069827cd48c",
-    "name": "Prudence",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": false,
-      "hasTracks": true,
-      "numberOfRotors": 14,
-      "Colour": "blue"
-    },
-    "statuses": ["on fire", "rusty", "on fire", "on fire"]
-  },
-  {
-    "id": "ca7b1b1e-c169-5608-90ba-0417c471ed6f",
-    "name": "Edythe",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": false,
-      "hasTracks": true,
-      "numberOfRotors": 13,
-      "Colour": "blue"
-    },
-    "statuses": ["rusty", "rusty"]
-  },
-  {
-    "id": "316d0505-511f-5d88-acaa-b85642b30825",
-    "name": "Wendy",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": false,
-      "hasTracks": false,
-      "numberOfRotors": 1,
-      "Colour": "black"
-    },
-    "statuses": ["rusty", "on fire", "paint scratched", "rusty"]
-  },
-  {
-    "id": "b8e42e6c-7a5e-563f-8b5f-29e689d03a8b",
-    "name": "Tremayne",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 11,
-      "Colour": "red"
-    },
-    "statuses": ["rusty", "on fire", "loose screw", "on fire"]
-  },
-  {
-    "id": "be2b0af9-7fab-5a26-a2ec-1948bbc332aa",
-    "name": "Mathew",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": false,
-      "hasTracks": false,
-      "numberOfRotors": 12,
-      "Colour": "white"
-    },
-    "statuses": ["paint scratched", "paint scratched"]
-  },
-  {
-    "id": "da0b5614-c9a0-5038-b011-aea1d514da47",
-    "name": "Cara",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 3,
-      "Colour": "blue"
-    },
-    "statuses": ["on fire"]
-  },
-  {
-    "id": "cbc9c8e3-f64a-5afd-8ade-ea435cf00826",
-    "name": "Helen",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": false,
-      "hasTracks": false,
-      "numberOfRotors": 6,
-      "Colour": "black"
-    },
-    "statuses": ["paint scratched", "rusty", "rusty", "paint scratched"]
-  },
-  {
-    "id": "e83009cc-5363-5fbd-90a4-47c10b04bfb2",
-    "name": "Delta",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": false,
-      "hasTracks": true,
-      "numberOfRotors": 6,
-      "Colour": "red"
-    },
-    "statuses": ["loose screw", "paint scratched", "rusty"]
-  },
-  {
-    "id": "c060ed2d-b07e-565f-b428-caadfa6bd2a4",
-    "name": "Kendrick",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": false,
-      "hasTracks": false,
-      "numberOfRotors": 2,
-      "Colour": "black"
-    },
-    "statuses": ["loose screw", "loose screw", "rusty"]
-  },
-  {
-    "id": "961def1b-a668-5832-8cb0-24722afd4b8c",
-    "name": "Tracy",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": false,
-      "hasTracks": true,
-      "numberOfRotors": 2,
-      "Colour": "blue"
-    },
-    "statuses": ["rusty", "rusty", "paint scratched"]
-  },
-  {
-    "id": "9afb3edd-aaa1-5102-955c-47f2ae6ff5a2",
-    "name": "Josie",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": false,
-      "hasTracks": true,
-      "numberOfRotors": 4,
-      "Colour": "blue"
-    },
-    "statuses": ["paint scratched", "rusty"]
-  },
-  {
-    "id": "2615a5ad-44a8-5da0-a0fa-1b2cc1fea08b",
-    "name": "Jalen",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": true,
-      "numberOfRotors": 3,
-      "Colour": "red"
-    },
-    "statuses": ["on fire", "paint scratched", "paint scratched", "rusty"]
-  },
-  {
-    "id": "1fa522df-9da7-55eb-87de-8c1439cd469e",
-    "name": "Braden",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": false,
-      "hasTracks": true,
-      "numberOfRotors": 5,
-      "Colour": "white"
-    },
-    "statuses": ["loose screw"]
-  },
-  {
-    "id": "10e34e95-6c2b-5a0f-956d-9d5a6b4d2819",
-    "name": "Mason",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 3,
-      "Colour": "red"
-    },
-    "statuses": ["on fire", "rusty"]
-  },
-  {
-    "id": "70339194-c621-5673-866c-7ce3ca990a4e",
-    "name": "Hank",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": false,
-      "hasTracks": false,
-      "numberOfRotors": 11,
-      "Colour": "black"
-    },
-    "statuses": ["on fire"]
-  },
-  {
-    "id": "0958b562-fa16-514c-9fa7-e32fd6309a20",
-    "name": "Kris",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 10,
-      "Colour": "blue"
-    },
-    "statuses": ["on fire", "on fire"]
-  },
-  {
-    "id": "9d71d257-1477-5fda-8a73-ce98ba78274f",
-    "name": "Trevion",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 4,
-      "Colour": "blue"
-    },
-    "statuses": ["rusty", "rusty", "rusty", "paint scratched"]
-  },
-  {
-    "id": "8728f9ae-8371-5acc-9f8a-c99b60706ef6",
-    "name": "Emma",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 3,
-      "Colour": "white"
-    },
-    "statuses": ["paint scratched", "paint scratched", "loose screw"]
-  },
-  {
-    "id": "52a937a9-efbf-5889-82de-7122ea8f5b46",
-    "name": "Minnie",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": false,
-      "hasTracks": true,
-      "numberOfRotors": 0,
-      "Colour": "blue"
-    },
-    "statuses": ["loose screw", "loose screw", "rusty"]
-  },
-  {
-    "id": "cadfa9b5-52c2-54e0-af6f-897870f26ed9",
-    "name": "Susana",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": false,
-      "hasTracks": true,
-      "numberOfRotors": 8,
-      "Colour": "blue"
-    },
-    "statuses": ["on fire", "loose screw", "on fire"]
-  },
-  {
-    "id": "9100c603-4a42-52a3-80c9-5c8d5b4d7dbb",
-    "name": "Dorothea",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": false,
-      "hasTracks": true,
-      "numberOfRotors": 6,
-      "Colour": "black"
-    },
-    "statuses": ["paint scratched", "rusty", "paint scratched"]
-  },
-  {
-    "id": "5f6fb319-607e-53c7-8a6c-b847b61210d0",
-    "name": "Isabel",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 9,
-      "Colour": "black"
-    },
-    "statuses": ["on fire", "loose screw"]
-  },
-  {
-    "id": "b118cdff-cd5a-5412-b964-20dc35074e9d",
-    "name": "Marlen",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": false,
-      "hasTracks": false,
-      "numberOfRotors": 17,
-      "Colour": "blue"
-    },
-    "statuses": ["rusty"]
-  },
-  {
-    "id": "cb7300ea-f131-55dc-a15a-a45c14463c29",
-    "name": "Kristian",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 15,
-      "Colour": "white"
-    },
-    "statuses": ["on fire", "paint scratched", "on fire"]
-  },
-  {
-    "id": "3dc043e6-9337-5d76-9993-a4f7f766aa2a",
-    "name": "Pink",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": false,
-      "hasTracks": false,
-      "numberOfRotors": 5,
-      "Colour": "black"
-    },
-    "statuses": ["rusty", "loose screw", "loose screw", "loose screw"]
-  },
-  {
-    "id": "7453b466-387d-5003-9b7e-debd6ebf5a9c",
-    "name": "Savannah",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 17,
-      "Colour": "white"
-    },
-    "statuses": ["paint scratched"]
-  },
-  {
-    "id": "fc4be0d2-cbdc-54c1-af51-d8ba8a2c67d9",
-    "name": "Elton",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": false,
-      "hasTracks": true,
-      "numberOfRotors": 0,
-      "Colour": "blue"
-    },
-    "statuses": ["on fire", "on fire"]
-  },
-  {
-    "id": "33a8244e-4f2b-596a-a18f-7cf93b409f2b",
-    "name": "Adalberto",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": true,
-      "numberOfRotors": 13,
-      "Colour": "black"
-    },
-    "statuses": ["paint scratched"]
-  },
-  {
-    "id": "83875d7f-0c13-5ed2-bb8c-8a01003bbff8",
-    "name": "Marilou",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": true,
-      "numberOfRotors": 11,
-      "Colour": "blue"
-    },
-    "statuses": ["loose screw", "on fire", "loose screw", "paint scratched"]
-  },
-  {
-    "id": "a5c1df10-2287-5c3c-87b1-f18f5664b7ad",
-    "name": "Odell",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": false,
-      "hasTracks": false,
-      "numberOfRotors": 6,
-      "Colour": "black"
-    },
-    "statuses": ["paint scratched", "rusty"]
-  },
-  {
-    "id": "8b15573f-7945-5705-8da0-218c910433a9",
-    "name": "Erick",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": false,
-      "hasTracks": true,
-      "numberOfRotors": 1,
-      "Colour": "red"
-    },
-    "statuses": ["paint scratched"]
-  },
-  {
-    "id": "0a82a3dd-a229-53df-b98d-dc72f11ebcce",
-    "name": "Aylin",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 6,
-      "Colour": "red"
-    },
-    "statuses": ["loose screw", "on fire"]
-  },
-  {
-    "id": "235d7bc4-72f6-57f5-97df-8d8e38e82ac3",
-    "name": "Esta",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 3,
-      "Colour": "blue"
-    },
-    "statuses": ["rusty", "loose screw"]
-  },
-  {
-    "id": "6ca289da-57e6-56c5-816e-b3386331c086",
-    "name": "Kirk",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": false,
-      "hasTracks": true,
-      "numberOfRotors": 1,
-      "Colour": "black"
-    },
-    "statuses": ["on fire", "loose screw"]
-  },
-  {
-    "id": "ae1cade7-661b-58a3-9155-5b2447cfab2c",
-    "name": "Tad",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": false,
-      "hasTracks": false,
-      "numberOfRotors": 11,
-      "Colour": "red"
-    },
-    "statuses": ["rusty"]
-  },
-  {
-    "id": "be458717-60bb-5e21-a1f9-e7f7c4f428a3",
-    "name": "Demario",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 0,
-      "Colour": "black"
-    },
-    "statuses": ["loose screw", "loose screw"]
-  },
-  {
-    "id": "95de6b9f-acec-592a-8fa4-291c2f9be6f2",
-    "name": "Keyshawn",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": true,
-      "hasTracks": true,
-      "numberOfRotors": 15,
-      "Colour": "blue"
-    },
-    "statuses": ["rusty", "rusty", "loose screw", "paint scratched"]
-  },
-  {
-    "id": "059a8bf9-cedc-5bf1-bed1-cdddbf197386",
-    "name": "Isidro",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": false,
-      "hasTracks": true,
-      "numberOfRotors": 7,
-      "Colour": "white"
-    },
-    "statuses": ["loose screw", "rusty"]
-  },
-  {
-    "id": "411a99f8-9e79-53bf-8ef6-57e3a90969bb",
-    "name": "Ryleigh",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 2,
-      "Colour": "blue"
-    },
-    "statuses": ["on fire", "loose screw", "loose screw", "on fire"]
-  },
-  {
-    "id": "f4e5586a-2215-5458-a73a-317879f3dc8e",
-    "name": "Lucius",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 10,
-      "Colour": "red"
-    },
-    "statuses": ["paint scratched", "on fire", "paint scratched", "on fire"]
-  },
-  {
-    "id": "d57a0013-b8df-5013-a36c-f32347e72250",
-    "name": "Miller",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 3,
-      "Colour": "white"
-    },
-    "statuses": ["loose screw", "on fire", "on fire", "loose screw"]
-  },
-  {
-    "id": "1310d23c-49fa-51d6-b68f-a8923d4ce90e",
-    "name": "Hudson",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": true,
-      "hasTracks": true,
-      "numberOfRotors": 13,
-      "Colour": "blue"
-    },
-    "statuses": ["on fire", "on fire", "paint scratched"]
-  },
-  {
-    "id": "e93ab124-d7f4-51b2-a9df-27cdb9b22150",
-    "name": "Kirsten",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 12,
-      "Colour": "blue"
-    },
-    "statuses": ["paint scratched", "on fire"]
-  },
-  {
-    "id": "9baa96ba-8bc7-57e9-b569-d9db2bc5ea08",
-    "name": "Jammie",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 13,
-      "Colour": "black"
-    },
-    "statuses": ["rusty", "on fire", "paint scratched"]
-  },
-  {
-    "id": "837702fd-9b82-5a97-a60f-0ec82f7af4f4",
-    "name": "Efrain",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": false,
-      "hasTracks": true,
-      "numberOfRotors": 2,
-      "Colour": "red"
-    },
-    "statuses": ["paint scratched", "rusty", "paint scratched", "on fire"]
-  },
-  {
-    "id": "1e015dea-1795-5595-a100-88cb50ef7b2f",
-    "name": "Oscar",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 7,
-      "Colour": "red"
-    },
-    "statuses": ["loose screw"]
-  },
-  {
-    "id": "e1881aa6-783b-5642-abb3-f3a3dca2d73d",
-    "name": "Amalia",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 9,
-      "Colour": "red"
-    },
-    "statuses": ["on fire", "rusty", "rusty", "rusty"]
-  },
-  {
-    "id": "016b10ef-6bb0-52f3-9bf4-5d81b798eeac",
-    "name": "Cornelius",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": true,
-      "hasTracks": true,
-      "numberOfRotors": 7,
-      "Colour": "black"
-    },
-    "statuses": ["paint scratched", "rusty", "paint scratched"]
-  },
-  {
-    "id": "d66857d9-2463-504e-8d15-c14a9b2d344a",
-    "name": "Einar",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": false,
-      "hasTracks": true,
-      "numberOfRotors": 12,
-      "Colour": "white"
-    },
-    "statuses": ["paint scratched"]
-  },
-  {
-    "id": "37dc453e-e120-5706-a2ae-cde866181622",
-    "name": "Mabelle",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 14,
-      "Colour": "black"
-    },
-    "statuses": ["on fire", "on fire", "rusty"]
-  },
-  {
-    "id": "593e765f-f6c4-59ba-bf7f-a93995134e81",
-    "name": "Eldridge",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": true,
-      "numberOfRotors": 9,
-      "Colour": "red"
-    },
-    "statuses": ["paint scratched"]
-  },
-  {
-    "id": "96e2d735-4206-54a1-83f9-e3c694af0765",
-    "name": "Lucius",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": false,
-      "hasTracks": false,
-      "numberOfRotors": 10,
-      "Colour": "white"
-    },
-    "statuses": ["paint scratched", "loose screw", "loose screw"]
-  },
-  {
-    "id": "78e678f3-f7a7-5512-8b97-92888278f6dc",
-    "name": "Jesus",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 1,
-      "Colour": "white"
-    },
-    "statuses": ["on fire"]
-  },
-  {
-    "id": "611971f6-36f7-5ff3-85c3-78e94e5646b7",
-    "name": "Pete",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 11,
-      "Colour": "blue"
-    },
-    "statuses": ["paint scratched", "on fire"]
-  },
-  {
-    "id": "50086cc3-c670-5e9d-b956-c3d510b3d56d",
-    "name": "Meda",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": false,
-      "hasTracks": true,
-      "numberOfRotors": 15,
-      "Colour": "blue"
-    },
-    "statuses": ["on fire", "loose screw", "rusty", "rusty"]
-  },
-  {
-    "id": "23fcd568-a88c-599b-9036-24c7585399f9",
-    "name": "Adalberto",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": false,
-      "hasTracks": true,
-      "numberOfRotors": 17,
-      "Colour": "white"
-    },
-    "statuses": ["on fire", "paint scratched"]
-  },
-  {
-    "id": "c0a28a92-6915-57d9-be25-1449361a4187",
-    "name": "Augustus",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": true,
-      "numberOfRotors": 15,
-      "Colour": "white"
-    },
-    "statuses": ["rusty", "paint scratched", "loose screw", "rusty"]
-  },
-  {
-    "id": "2676e012-a1f0-5e0c-bff5-d44cf91779ea",
-    "name": "Ebba",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 6,
-      "Colour": "red"
-    },
-    "statuses": ["paint scratched", "paint scratched"]
-  },
-  {
-    "id": "980bd5bd-f3aa-55fa-b367-ce8b5a386fba",
-    "name": "Lauren",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": true,
-      "hasTracks": true,
-      "numberOfRotors": 7,
-      "Colour": "black"
-    },
-    "statuses": ["rusty", "paint scratched", "rusty", "on fire"]
-  },
-  {
-    "id": "7dfa808d-28a2-5ef5-8b4e-9d35eecf0845",
-    "name": "Lowell",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": false,
-      "hasTracks": true,
-      "numberOfRotors": 7,
-      "Colour": "blue"
-    },
-    "statuses": ["loose screw", "rusty", "rusty"]
-  },
-  {
-    "id": "b03e8507-e0c8-592e-a85c-72701175dbe9",
-    "name": "Virginie",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": false,
-      "hasTracks": true,
-      "numberOfRotors": 6,
-      "Colour": "white"
-    },
-    "statuses": ["loose screw", "loose screw", "loose screw", "paint scratched"]
-  },
-  {
-    "id": "b96dd996-5e74-51d1-87aa-6a80895be64f",
-    "name": "Kayli",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": true,
-      "numberOfRotors": 0,
-      "Colour": "black"
-    },
-    "statuses": ["loose screw", "paint scratched"]
-  },
-  {
-    "id": "c7f75ad7-0904-537e-b5c4-6a55aaa1ae63",
-    "name": "Kelvin",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": true,
-      "numberOfRotors": 10,
-      "Colour": "white"
-    },
-    "statuses": ["paint scratched", "rusty", "paint scratched", "rusty"]
-  },
-  {
-    "id": "841b17ae-7474-5462-bdca-476d7a6d9f4c",
-    "name": "Antwon",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": false,
-      "hasTracks": false,
-      "numberOfRotors": 2,
-      "Colour": "blue"
-    },
-    "statuses": ["loose screw", "paint scratched", "loose screw", "on fire"]
-  },
-  {
-    "id": "a5d6b21f-1959-55a7-b23a-fc6d0251e5ee",
-    "name": "Ronny",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": false,
-      "hasTracks": true,
-      "numberOfRotors": 5,
-      "Colour": "black"
-    },
-    "statuses": ["rusty", "on fire", "paint scratched"]
-  },
-  {
-    "id": "de7106f4-fba7-5ec1-a34f-8fca90655a08",
-    "name": "Fredy",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 13,
-      "Colour": "blue"
-    },
-    "statuses": ["paint scratched", "rusty", "loose screw", "paint scratched"]
-  },
-  {
-    "id": "549f030d-df80-5a65-ba3d-f121ac5b919c",
-    "name": "Millie",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": true,
-      "numberOfRotors": 5,
-      "Colour": "blue"
-    },
-    "statuses": ["on fire"]
-  },
-  {
-    "id": "00a38222-a118-50a4-9fac-f4f37a3eddb8",
-    "name": "Jasen",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": false,
-      "hasTracks": true,
-      "numberOfRotors": 6,
-      "Colour": "black"
-    },
-    "statuses": ["paint scratched", "on fire", "on fire", "loose screw"]
-  },
-  {
-    "id": "eeea87f1-b6dc-5a82-96a6-c5a0c86a2eec",
-    "name": "Diana",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": false,
-      "hasTracks": true,
-      "numberOfRotors": 8,
-      "Colour": "blue"
-    },
-    "statuses": ["paint scratched"]
-  },
-  {
-    "id": "2a0b1742-2aa1-5114-b5b8-6e76663e8529",
-    "name": "Paris",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": false,
-      "hasTracks": true,
-      "numberOfRotors": 15,
-      "Colour": "red"
-    },
-    "statuses": ["paint scratched", "on fire", "paint scratched"]
-  },
-  {
-    "id": "5d27b76d-cc53-5c01-bf47-a3a02e260784",
-    "name": "Davin",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": false,
-      "hasTracks": true,
-      "numberOfRotors": 0,
-      "Colour": "white"
-    },
-    "statuses": ["rusty", "paint scratched", "rusty"]
-  },
-  {
-    "id": "db229628-2d19-5761-85d6-2f38094d6303",
-    "name": "Garrison",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": false,
-      "hasTracks": true,
-      "numberOfRotors": 3,
-      "Colour": "blue"
-    },
-    "statuses": ["rusty", "paint scratched", "loose screw", "paint scratched"]
-  },
-  {
-    "id": "8d8f2ca4-4b6b-537a-8ef5-52a188cf1873",
-    "name": "Mary",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": true,
-      "numberOfRotors": 3,
-      "Colour": "red"
-    },
-    "statuses": ["loose screw"]
-  },
-  {
-    "id": "4d87e0ff-c795-552e-9214-3522b0609539",
-    "name": "Stacy",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 5,
-      "Colour": "blue"
-    },
-    "statuses": ["paint scratched"]
-  },
-  {
-    "id": "238a6ffe-c70c-5209-b83a-7fd38a4c2bb9",
-    "name": "Maria",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 11,
-      "Colour": "black"
-    },
-    "statuses": ["on fire"]
-  },
-  {
-    "id": "79878683-880b-5b95-a2dc-eb029ad12c63",
-    "name": "Alexa",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 0,
-      "Colour": "red"
-    },
-    "statuses": ["paint scratched"]
-  },
-  {
-    "id": "3d1b835e-af8f-5624-9cd6-63ee453bdc4a",
-    "name": "Caesar",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": true,
-      "numberOfRotors": 14,
-      "Colour": "blue"
-    },
-    "statuses": ["rusty", "paint scratched"]
-  },
-  {
-    "id": "387c571b-6665-5789-bb5b-490c6e5bb0e5",
-    "name": "Isaac",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": true,
-      "numberOfRotors": 13,
-      "Colour": "white"
-    },
-    "statuses": ["rusty"]
-  },
-  {
-    "id": "bf2b096b-8f0a-522b-800d-70b887cc1d7a",
-    "name": "Whitney",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": true,
-      "numberOfRotors": 10,
-      "Colour": "blue"
-    },
-    "statuses": ["paint scratched", "rusty", "loose screw", "rusty"]
-  },
-  {
-    "id": "a05b0cb2-986f-5d83-9eb8-533971a727b5",
-    "name": "Santos",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": false,
-      "hasTracks": false,
-      "numberOfRotors": 0,
-      "Colour": "black"
-    },
-    "statuses": ["paint scratched", "paint scratched", "loose screw"]
-  },
-  {
-    "id": "8e822c59-5295-5741-a028-3a2c8d75fc06",
-    "name": "Mozell",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 16,
-      "Colour": "red"
-    },
-    "statuses": ["loose screw", "rusty", "rusty", "loose screw"]
-  },
-  {
-    "id": "0533a62d-f3cf-5eeb-a71d-c1f1d72df110",
-    "name": "Enos",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 1,
-      "Colour": "red"
-    },
-    "statuses": ["rusty", "paint scratched"]
-  },
-  {
-    "id": "22dc1b36-30ef-50aa-b706-6f07beb495f4",
-    "name": "Twila",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": false,
-      "hasTracks": true,
-      "numberOfRotors": 3,
-      "Colour": "red"
-    },
-    "statuses": ["loose screw", "rusty"]
-  },
-  {
-    "id": "b1756af5-e551-57e1-8183-52819ce5f8ff",
-    "name": "Jana",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 1,
-      "Colour": "black"
-    },
-    "statuses": ["on fire", "paint scratched", "paint scratched"]
-  },
-  {
-    "id": "5e1e275d-efd7-53c5-8e09-ef227fba952c",
-    "name": "Bailey",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": true,
-      "numberOfRotors": 3,
-      "Colour": "red"
-    },
-    "statuses": ["rusty", "loose screw"]
-  },
-  {
-    "id": "65304365-53a9-5d2e-98fc-98d623ec9f14",
-    "name": "Kevin",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": false,
-      "hasTracks": false,
-      "numberOfRotors": 2,
-      "Colour": "white"
-    },
-    "statuses": ["paint scratched"]
-  },
-  {
-    "id": "dbe476a7-084f-54d8-81d2-08647def5288",
-    "name": "Phoebe",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 4,
-      "Colour": "black"
-    },
-    "statuses": ["paint scratched"]
-  },
-  {
-    "id": "11ec2334-22ed-59b1-94da-2ae7ac138a4a",
-    "name": "Winfield",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 5,
-      "Colour": "black"
-    },
-    "statuses": ["loose screw", "loose screw", "loose screw"]
-  },
-  {
-    "id": "bb9a6d62-85fa-534f-9ccf-602017cbf745",
-    "name": "Destiney",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 1,
-      "Colour": "white"
-    },
-    "statuses": ["rusty", "paint scratched", "loose screw"]
-  },
-  {
-    "id": "122460d8-c7c3-5e13-8a51-5bff00a198f0",
-    "name": "Melyna",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": true,
-      "numberOfRotors": 4,
-      "Colour": "white"
-    },
-    "statuses": ["on fire", "paint scratched", "loose screw"]
-  },
-  {
-    "id": "0a0565c9-9637-59ae-95be-104f784b20ee",
-    "name": "Heloise",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 13,
-      "Colour": "black"
-    },
-    "statuses": ["paint scratched", "paint scratched", "rusty"]
-  },
-  {
-    "id": "6c663487-57cd-533d-a2fd-0400abebd201",
-    "name": "Marquis",
-    "configuration": {
-      "hasSentience": true,
-      "hasWheels": true,
-      "hasTracks": true,
-      "numberOfRotors": 15,
-      "Colour": "black"
-    },
-    "statuses": ["on fire", "loose screw", "loose screw"]
-  },
-  {
-    "id": "6d237716-4f0a-5542-89d9-efd9981f93d7",
-    "name": "Carmine",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 15,
-      "Colour": "red"
-    },
-    "statuses": ["loose screw", "rusty", "paint scratched"]
-  },
-  {
-    "id": "9168d24d-7bf4-5da8-a199-1b3b3acc7ecb",
-    "name": "Terrill",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": false,
-      "hasTracks": true,
-      "numberOfRotors": 16,
-      "Colour": "red"
-    },
-    "statuses": ["on fire", "paint scratched", "rusty", "loose screw"]
-  },
-  {
-    "id": "02c8f207-8e34-587e-ab03-098f5651985f",
-    "name": "Santiago",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": false,
-      "hasTracks": false,
-      "numberOfRotors": 13,
-      "Colour": "blue"
-    },
-    "statuses": ["on fire"]
-  },
-  {
-    "id": "b2081823-71c2-5081-ae11-8af4555873a7",
-    "name": "Hugh",
-    "configuration": {
-      "hasSentience": false,
-      "hasWheels": true,
-      "hasTracks": false,
-      "numberOfRotors": 5,
-      "Colour": "black"
-    },
-    "statuses": ["rusty", "rusty", "on fire"]
-  }
-]
+{
+  "robots": [
+    {
+      "id": "4a1cd335-656e-5f2b-b34f-d79266886eca",
+      "name": "Simone",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": false,
+        "hasTracks": true,
+        "numberOfRotors": 1,
+        "Colour": "blue"
+      },
+      "statuses": ["rusty", "loose screw", "loose screw"]
+    },
+    {
+      "id": "f89dc624-a93e-585a-b3b0-a1f0c2abee96",
+      "name": "Narciso",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": false,
+        "hasTracks": false,
+        "numberOfRotors": 4,
+        "Colour": "blue"
+      },
+      "statuses": ["loose screw", "paint scratched", "rusty", "on fire"]
+    },
+    {
+      "id": "63d4e8df-35bf-5ed7-b1d2-b7e25fa4d3c5",
+      "name": "Cora",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 15,
+        "Colour": "blue"
+      },
+      "statuses": ["loose screw"]
+    },
+    {
+      "id": "d8992292-c247-55d9-b5e0-31fc645cbf68",
+      "name": "Lily",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": true,
+        "numberOfRotors": 4,
+        "Colour": "black"
+      },
+      "statuses": ["loose screw"]
+    },
+    {
+      "id": "cebd6aaf-2f51-525b-ae5b-b069827cd48c",
+      "name": "Prudence",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": false,
+        "hasTracks": true,
+        "numberOfRotors": 14,
+        "Colour": "blue"
+      },
+      "statuses": ["on fire", "rusty", "on fire", "on fire"]
+    },
+    {
+      "id": "ca7b1b1e-c169-5608-90ba-0417c471ed6f",
+      "name": "Edythe",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": false,
+        "hasTracks": true,
+        "numberOfRotors": 13,
+        "Colour": "blue"
+      },
+      "statuses": ["rusty", "rusty"]
+    },
+    {
+      "id": "316d0505-511f-5d88-acaa-b85642b30825",
+      "name": "Wendy",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": false,
+        "hasTracks": false,
+        "numberOfRotors": 1,
+        "Colour": "black"
+      },
+      "statuses": ["rusty", "on fire", "paint scratched", "rusty"]
+    },
+    {
+      "id": "b8e42e6c-7a5e-563f-8b5f-29e689d03a8b",
+      "name": "Tremayne",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 11,
+        "Colour": "red"
+      },
+      "statuses": ["rusty", "on fire", "loose screw", "on fire"]
+    },
+    {
+      "id": "be2b0af9-7fab-5a26-a2ec-1948bbc332aa",
+      "name": "Mathew",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": false,
+        "hasTracks": false,
+        "numberOfRotors": 12,
+        "Colour": "white"
+      },
+      "statuses": ["paint scratched", "paint scratched"]
+    },
+    {
+      "id": "da0b5614-c9a0-5038-b011-aea1d514da47",
+      "name": "Cara",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 3,
+        "Colour": "blue"
+      },
+      "statuses": ["on fire"]
+    },
+    {
+      "id": "cbc9c8e3-f64a-5afd-8ade-ea435cf00826",
+      "name": "Helen",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": false,
+        "hasTracks": false,
+        "numberOfRotors": 6,
+        "Colour": "black"
+      },
+      "statuses": ["paint scratched", "rusty", "rusty", "paint scratched"]
+    },
+    {
+      "id": "e83009cc-5363-5fbd-90a4-47c10b04bfb2",
+      "name": "Delta",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": false,
+        "hasTracks": true,
+        "numberOfRotors": 6,
+        "Colour": "red"
+      },
+      "statuses": ["loose screw", "paint scratched", "rusty"]
+    },
+    {
+      "id": "c060ed2d-b07e-565f-b428-caadfa6bd2a4",
+      "name": "Kendrick",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": false,
+        "hasTracks": false,
+        "numberOfRotors": 2,
+        "Colour": "black"
+      },
+      "statuses": ["loose screw", "loose screw", "rusty"]
+    },
+    {
+      "id": "961def1b-a668-5832-8cb0-24722afd4b8c",
+      "name": "Tracy",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": false,
+        "hasTracks": true,
+        "numberOfRotors": 2,
+        "Colour": "blue"
+      },
+      "statuses": ["rusty", "rusty", "paint scratched"]
+    },
+    {
+      "id": "9afb3edd-aaa1-5102-955c-47f2ae6ff5a2",
+      "name": "Josie",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": false,
+        "hasTracks": true,
+        "numberOfRotors": 4,
+        "Colour": "blue"
+      },
+      "statuses": ["paint scratched", "rusty"]
+    },
+    {
+      "id": "2615a5ad-44a8-5da0-a0fa-1b2cc1fea08b",
+      "name": "Jalen",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": true,
+        "numberOfRotors": 3,
+        "Colour": "red"
+      },
+      "statuses": ["on fire", "paint scratched", "paint scratched", "rusty"]
+    },
+    {
+      "id": "1fa522df-9da7-55eb-87de-8c1439cd469e",
+      "name": "Braden",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": false,
+        "hasTracks": true,
+        "numberOfRotors": 5,
+        "Colour": "white"
+      },
+      "statuses": ["loose screw"]
+    },
+    {
+      "id": "10e34e95-6c2b-5a0f-956d-9d5a6b4d2819",
+      "name": "Mason",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 3,
+        "Colour": "red"
+      },
+      "statuses": ["on fire", "rusty"]
+    },
+    {
+      "id": "70339194-c621-5673-866c-7ce3ca990a4e",
+      "name": "Hank",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": false,
+        "hasTracks": false,
+        "numberOfRotors": 11,
+        "Colour": "black"
+      },
+      "statuses": ["on fire"]
+    },
+    {
+      "id": "0958b562-fa16-514c-9fa7-e32fd6309a20",
+      "name": "Kris",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 10,
+        "Colour": "blue"
+      },
+      "statuses": ["on fire", "on fire"]
+    },
+    {
+      "id": "9d71d257-1477-5fda-8a73-ce98ba78274f",
+      "name": "Trevion",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 4,
+        "Colour": "blue"
+      },
+      "statuses": ["rusty", "rusty", "rusty", "paint scratched"]
+    },
+    {
+      "id": "8728f9ae-8371-5acc-9f8a-c99b60706ef6",
+      "name": "Emma",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 3,
+        "Colour": "white"
+      },
+      "statuses": ["paint scratched", "paint scratched", "loose screw"]
+    },
+    {
+      "id": "52a937a9-efbf-5889-82de-7122ea8f5b46",
+      "name": "Minnie",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": false,
+        "hasTracks": true,
+        "numberOfRotors": 0,
+        "Colour": "blue"
+      },
+      "statuses": ["loose screw", "loose screw", "rusty"]
+    },
+    {
+      "id": "cadfa9b5-52c2-54e0-af6f-897870f26ed9",
+      "name": "Susana",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": false,
+        "hasTracks": true,
+        "numberOfRotors": 8,
+        "Colour": "blue"
+      },
+      "statuses": ["on fire", "loose screw", "on fire"]
+    },
+    {
+      "id": "9100c603-4a42-52a3-80c9-5c8d5b4d7dbb",
+      "name": "Dorothea",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": false,
+        "hasTracks": true,
+        "numberOfRotors": 6,
+        "Colour": "black"
+      },
+      "statuses": ["paint scratched", "rusty", "paint scratched"]
+    },
+    {
+      "id": "5f6fb319-607e-53c7-8a6c-b847b61210d0",
+      "name": "Isabel",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 9,
+        "Colour": "black"
+      },
+      "statuses": ["on fire", "loose screw"]
+    },
+    {
+      "id": "b118cdff-cd5a-5412-b964-20dc35074e9d",
+      "name": "Marlen",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": false,
+        "hasTracks": false,
+        "numberOfRotors": 17,
+        "Colour": "blue"
+      },
+      "statuses": ["rusty"]
+    },
+    {
+      "id": "cb7300ea-f131-55dc-a15a-a45c14463c29",
+      "name": "Kristian",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 15,
+        "Colour": "white"
+      },
+      "statuses": ["on fire", "paint scratched", "on fire"]
+    },
+    {
+      "id": "3dc043e6-9337-5d76-9993-a4f7f766aa2a",
+      "name": "Pink",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": false,
+        "hasTracks": false,
+        "numberOfRotors": 5,
+        "Colour": "black"
+      },
+      "statuses": ["rusty", "loose screw", "loose screw", "loose screw"]
+    },
+    {
+      "id": "7453b466-387d-5003-9b7e-debd6ebf5a9c",
+      "name": "Savannah",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 17,
+        "Colour": "white"
+      },
+      "statuses": ["paint scratched"]
+    },
+    {
+      "id": "fc4be0d2-cbdc-54c1-af51-d8ba8a2c67d9",
+      "name": "Elton",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": false,
+        "hasTracks": true,
+        "numberOfRotors": 0,
+        "Colour": "blue"
+      },
+      "statuses": ["on fire", "on fire"]
+    },
+    {
+      "id": "33a8244e-4f2b-596a-a18f-7cf93b409f2b",
+      "name": "Adalberto",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": true,
+        "numberOfRotors": 13,
+        "Colour": "black"
+      },
+      "statuses": ["paint scratched"]
+    },
+    {
+      "id": "83875d7f-0c13-5ed2-bb8c-8a01003bbff8",
+      "name": "Marilou",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": true,
+        "numberOfRotors": 11,
+        "Colour": "blue"
+      },
+      "statuses": ["loose screw", "on fire", "loose screw", "paint scratched"]
+    },
+    {
+      "id": "a5c1df10-2287-5c3c-87b1-f18f5664b7ad",
+      "name": "Odell",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": false,
+        "hasTracks": false,
+        "numberOfRotors": 6,
+        "Colour": "black"
+      },
+      "statuses": ["paint scratched", "rusty"]
+    },
+    {
+      "id": "8b15573f-7945-5705-8da0-218c910433a9",
+      "name": "Erick",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": false,
+        "hasTracks": true,
+        "numberOfRotors": 1,
+        "Colour": "red"
+      },
+      "statuses": ["paint scratched"]
+    },
+    {
+      "id": "0a82a3dd-a229-53df-b98d-dc72f11ebcce",
+      "name": "Aylin",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 6,
+        "Colour": "red"
+      },
+      "statuses": ["loose screw", "on fire"]
+    },
+    {
+      "id": "235d7bc4-72f6-57f5-97df-8d8e38e82ac3",
+      "name": "Esta",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 3,
+        "Colour": "blue"
+      },
+      "statuses": ["rusty", "loose screw"]
+    },
+    {
+      "id": "6ca289da-57e6-56c5-816e-b3386331c086",
+      "name": "Kirk",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": false,
+        "hasTracks": true,
+        "numberOfRotors": 1,
+        "Colour": "black"
+      },
+      "statuses": ["on fire", "loose screw"]
+    },
+    {
+      "id": "ae1cade7-661b-58a3-9155-5b2447cfab2c",
+      "name": "Tad",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": false,
+        "hasTracks": false,
+        "numberOfRotors": 11,
+        "Colour": "red"
+      },
+      "statuses": ["rusty"]
+    },
+    {
+      "id": "be458717-60bb-5e21-a1f9-e7f7c4f428a3",
+      "name": "Demario",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 0,
+        "Colour": "black"
+      },
+      "statuses": ["loose screw", "loose screw"]
+    },
+    {
+      "id": "95de6b9f-acec-592a-8fa4-291c2f9be6f2",
+      "name": "Keyshawn",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": true,
+        "hasTracks": true,
+        "numberOfRotors": 15,
+        "Colour": "blue"
+      },
+      "statuses": ["rusty", "rusty", "loose screw", "paint scratched"]
+    },
+    {
+      "id": "059a8bf9-cedc-5bf1-bed1-cdddbf197386",
+      "name": "Isidro",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": false,
+        "hasTracks": true,
+        "numberOfRotors": 7,
+        "Colour": "white"
+      },
+      "statuses": ["loose screw", "rusty"]
+    },
+    {
+      "id": "411a99f8-9e79-53bf-8ef6-57e3a90969bb",
+      "name": "Ryleigh",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 2,
+        "Colour": "blue"
+      },
+      "statuses": ["on fire", "loose screw", "loose screw", "on fire"]
+    },
+    {
+      "id": "f4e5586a-2215-5458-a73a-317879f3dc8e",
+      "name": "Lucius",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 10,
+        "Colour": "red"
+      },
+      "statuses": ["paint scratched", "on fire", "paint scratched", "on fire"]
+    },
+    {
+      "id": "d57a0013-b8df-5013-a36c-f32347e72250",
+      "name": "Miller",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 3,
+        "Colour": "white"
+      },
+      "statuses": ["loose screw", "on fire", "on fire", "loose screw"]
+    },
+    {
+      "id": "1310d23c-49fa-51d6-b68f-a8923d4ce90e",
+      "name": "Hudson",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": true,
+        "hasTracks": true,
+        "numberOfRotors": 13,
+        "Colour": "blue"
+      },
+      "statuses": ["on fire", "on fire", "paint scratched"]
+    },
+    {
+      "id": "e93ab124-d7f4-51b2-a9df-27cdb9b22150",
+      "name": "Kirsten",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 12,
+        "Colour": "blue"
+      },
+      "statuses": ["paint scratched", "on fire"]
+    },
+    {
+      "id": "9baa96ba-8bc7-57e9-b569-d9db2bc5ea08",
+      "name": "Jammie",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 13,
+        "Colour": "black"
+      },
+      "statuses": ["rusty", "on fire", "paint scratched"]
+    },
+    {
+      "id": "837702fd-9b82-5a97-a60f-0ec82f7af4f4",
+      "name": "Efrain",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": false,
+        "hasTracks": true,
+        "numberOfRotors": 2,
+        "Colour": "red"
+      },
+      "statuses": ["paint scratched", "rusty", "paint scratched", "on fire"]
+    },
+    {
+      "id": "1e015dea-1795-5595-a100-88cb50ef7b2f",
+      "name": "Oscar",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 7,
+        "Colour": "red"
+      },
+      "statuses": ["loose screw"]
+    },
+    {
+      "id": "e1881aa6-783b-5642-abb3-f3a3dca2d73d",
+      "name": "Amalia",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 9,
+        "Colour": "red"
+      },
+      "statuses": ["on fire", "rusty", "rusty", "rusty"]
+    },
+    {
+      "id": "016b10ef-6bb0-52f3-9bf4-5d81b798eeac",
+      "name": "Cornelius",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": true,
+        "hasTracks": true,
+        "numberOfRotors": 7,
+        "Colour": "black"
+      },
+      "statuses": ["paint scratched", "rusty", "paint scratched"]
+    },
+    {
+      "id": "d66857d9-2463-504e-8d15-c14a9b2d344a",
+      "name": "Einar",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": false,
+        "hasTracks": true,
+        "numberOfRotors": 12,
+        "Colour": "white"
+      },
+      "statuses": ["paint scratched"]
+    },
+    {
+      "id": "37dc453e-e120-5706-a2ae-cde866181622",
+      "name": "Mabelle",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 14,
+        "Colour": "black"
+      },
+      "statuses": ["on fire", "on fire", "rusty"]
+    },
+    {
+      "id": "593e765f-f6c4-59ba-bf7f-a93995134e81",
+      "name": "Eldridge",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": true,
+        "numberOfRotors": 9,
+        "Colour": "red"
+      },
+      "statuses": ["paint scratched"]
+    },
+    {
+      "id": "96e2d735-4206-54a1-83f9-e3c694af0765",
+      "name": "Lucius",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": false,
+        "hasTracks": false,
+        "numberOfRotors": 10,
+        "Colour": "white"
+      },
+      "statuses": ["paint scratched", "loose screw", "loose screw"]
+    },
+    {
+      "id": "78e678f3-f7a7-5512-8b97-92888278f6dc",
+      "name": "Jesus",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 1,
+        "Colour": "white"
+      },
+      "statuses": ["on fire"]
+    },
+    {
+      "id": "611971f6-36f7-5ff3-85c3-78e94e5646b7",
+      "name": "Pete",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 11,
+        "Colour": "blue"
+      },
+      "statuses": ["paint scratched", "on fire"]
+    },
+    {
+      "id": "50086cc3-c670-5e9d-b956-c3d510b3d56d",
+      "name": "Meda",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": false,
+        "hasTracks": true,
+        "numberOfRotors": 15,
+        "Colour": "blue"
+      },
+      "statuses": ["on fire", "loose screw", "rusty", "rusty"]
+    },
+    {
+      "id": "23fcd568-a88c-599b-9036-24c7585399f9",
+      "name": "Adalberto",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": false,
+        "hasTracks": true,
+        "numberOfRotors": 17,
+        "Colour": "white"
+      },
+      "statuses": ["on fire", "paint scratched"]
+    },
+    {
+      "id": "c0a28a92-6915-57d9-be25-1449361a4187",
+      "name": "Augustus",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": true,
+        "numberOfRotors": 15,
+        "Colour": "white"
+      },
+      "statuses": ["rusty", "paint scratched", "loose screw", "rusty"]
+    },
+    {
+      "id": "2676e012-a1f0-5e0c-bff5-d44cf91779ea",
+      "name": "Ebba",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 6,
+        "Colour": "red"
+      },
+      "statuses": ["paint scratched", "paint scratched"]
+    },
+    {
+      "id": "980bd5bd-f3aa-55fa-b367-ce8b5a386fba",
+      "name": "Lauren",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": true,
+        "hasTracks": true,
+        "numberOfRotors": 7,
+        "Colour": "black"
+      },
+      "statuses": ["rusty", "paint scratched", "rusty", "on fire"]
+    },
+    {
+      "id": "7dfa808d-28a2-5ef5-8b4e-9d35eecf0845",
+      "name": "Lowell",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": false,
+        "hasTracks": true,
+        "numberOfRotors": 7,
+        "Colour": "blue"
+      },
+      "statuses": ["loose screw", "rusty", "rusty"]
+    },
+    {
+      "id": "b03e8507-e0c8-592e-a85c-72701175dbe9",
+      "name": "Virginie",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": false,
+        "hasTracks": true,
+        "numberOfRotors": 6,
+        "Colour": "white"
+      },
+      "statuses": ["loose screw", "loose screw", "loose screw", "paint scratched"]
+    },
+    {
+      "id": "b96dd996-5e74-51d1-87aa-6a80895be64f",
+      "name": "Kayli",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": true,
+        "numberOfRotors": 0,
+        "Colour": "black"
+      },
+      "statuses": ["loose screw", "paint scratched"]
+    },
+    {
+      "id": "c7f75ad7-0904-537e-b5c4-6a55aaa1ae63",
+      "name": "Kelvin",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": true,
+        "numberOfRotors": 10,
+        "Colour": "white"
+      },
+      "statuses": ["paint scratched", "rusty", "paint scratched", "rusty"]
+    },
+    {
+      "id": "841b17ae-7474-5462-bdca-476d7a6d9f4c",
+      "name": "Antwon",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": false,
+        "hasTracks": false,
+        "numberOfRotors": 2,
+        "Colour": "blue"
+      },
+      "statuses": ["loose screw", "paint scratched", "loose screw", "on fire"]
+    },
+    {
+      "id": "a5d6b21f-1959-55a7-b23a-fc6d0251e5ee",
+      "name": "Ronny",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": false,
+        "hasTracks": true,
+        "numberOfRotors": 5,
+        "Colour": "black"
+      },
+      "statuses": ["rusty", "on fire", "paint scratched"]
+    },
+    {
+      "id": "de7106f4-fba7-5ec1-a34f-8fca90655a08",
+      "name": "Fredy",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 13,
+        "Colour": "blue"
+      },
+      "statuses": ["paint scratched", "rusty", "loose screw", "paint scratched"]
+    },
+    {
+      "id": "549f030d-df80-5a65-ba3d-f121ac5b919c",
+      "name": "Millie",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": true,
+        "numberOfRotors": 5,
+        "Colour": "blue"
+      },
+      "statuses": ["on fire"]
+    },
+    {
+      "id": "00a38222-a118-50a4-9fac-f4f37a3eddb8",
+      "name": "Jasen",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": false,
+        "hasTracks": true,
+        "numberOfRotors": 6,
+        "Colour": "black"
+      },
+      "statuses": ["paint scratched", "on fire", "on fire", "loose screw"]
+    },
+    {
+      "id": "eeea87f1-b6dc-5a82-96a6-c5a0c86a2eec",
+      "name": "Diana",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": false,
+        "hasTracks": true,
+        "numberOfRotors": 8,
+        "Colour": "blue"
+      },
+      "statuses": ["paint scratched"]
+    },
+    {
+      "id": "2a0b1742-2aa1-5114-b5b8-6e76663e8529",
+      "name": "Paris",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": false,
+        "hasTracks": true,
+        "numberOfRotors": 15,
+        "Colour": "red"
+      },
+      "statuses": ["paint scratched", "on fire", "paint scratched"]
+    },
+    {
+      "id": "5d27b76d-cc53-5c01-bf47-a3a02e260784",
+      "name": "Davin",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": false,
+        "hasTracks": true,
+        "numberOfRotors": 0,
+        "Colour": "white"
+      },
+      "statuses": ["rusty", "paint scratched", "rusty"]
+    },
+    {
+      "id": "db229628-2d19-5761-85d6-2f38094d6303",
+      "name": "Garrison",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": false,
+        "hasTracks": true,
+        "numberOfRotors": 3,
+        "Colour": "blue"
+      },
+      "statuses": ["rusty", "paint scratched", "loose screw", "paint scratched"]
+    },
+    {
+      "id": "8d8f2ca4-4b6b-537a-8ef5-52a188cf1873",
+      "name": "Mary",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": true,
+        "numberOfRotors": 3,
+        "Colour": "red"
+      },
+      "statuses": ["loose screw"]
+    },
+    {
+      "id": "4d87e0ff-c795-552e-9214-3522b0609539",
+      "name": "Stacy",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 5,
+        "Colour": "blue"
+      },
+      "statuses": ["paint scratched"]
+    },
+    {
+      "id": "238a6ffe-c70c-5209-b83a-7fd38a4c2bb9",
+      "name": "Maria",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 11,
+        "Colour": "black"
+      },
+      "statuses": ["on fire"]
+    },
+    {
+      "id": "79878683-880b-5b95-a2dc-eb029ad12c63",
+      "name": "Alexa",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 0,
+        "Colour": "red"
+      },
+      "statuses": ["paint scratched"]
+    },
+    {
+      "id": "3d1b835e-af8f-5624-9cd6-63ee453bdc4a",
+      "name": "Caesar",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": true,
+        "numberOfRotors": 14,
+        "Colour": "blue"
+      },
+      "statuses": ["rusty", "paint scratched"]
+    },
+    {
+      "id": "387c571b-6665-5789-bb5b-490c6e5bb0e5",
+      "name": "Isaac",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": true,
+        "numberOfRotors": 13,
+        "Colour": "white"
+      },
+      "statuses": ["rusty"]
+    },
+    {
+      "id": "bf2b096b-8f0a-522b-800d-70b887cc1d7a",
+      "name": "Whitney",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": true,
+        "numberOfRotors": 10,
+        "Colour": "blue"
+      },
+      "statuses": ["paint scratched", "rusty", "loose screw", "rusty"]
+    },
+    {
+      "id": "a05b0cb2-986f-5d83-9eb8-533971a727b5",
+      "name": "Santos",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": false,
+        "hasTracks": false,
+        "numberOfRotors": 0,
+        "Colour": "black"
+      },
+      "statuses": ["paint scratched", "paint scratched", "loose screw"]
+    },
+    {
+      "id": "8e822c59-5295-5741-a028-3a2c8d75fc06",
+      "name": "Mozell",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 16,
+        "Colour": "red"
+      },
+      "statuses": ["loose screw", "rusty", "rusty", "loose screw"]
+    },
+    {
+      "id": "0533a62d-f3cf-5eeb-a71d-c1f1d72df110",
+      "name": "Enos",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 1,
+        "Colour": "red"
+      },
+      "statuses": ["rusty", "paint scratched"]
+    },
+    {
+      "id": "22dc1b36-30ef-50aa-b706-6f07beb495f4",
+      "name": "Twila",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": false,
+        "hasTracks": true,
+        "numberOfRotors": 3,
+        "Colour": "red"
+      },
+      "statuses": ["loose screw", "rusty"]
+    },
+    {
+      "id": "b1756af5-e551-57e1-8183-52819ce5f8ff",
+      "name": "Jana",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 1,
+        "Colour": "black"
+      },
+      "statuses": ["on fire", "paint scratched", "paint scratched"]
+    },
+    {
+      "id": "5e1e275d-efd7-53c5-8e09-ef227fba952c",
+      "name": "Bailey",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": true,
+        "numberOfRotors": 3,
+        "Colour": "red"
+      },
+      "statuses": ["rusty", "loose screw"]
+    },
+    {
+      "id": "65304365-53a9-5d2e-98fc-98d623ec9f14",
+      "name": "Kevin",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": false,
+        "hasTracks": false,
+        "numberOfRotors": 2,
+        "Colour": "white"
+      },
+      "statuses": ["paint scratched"]
+    },
+    {
+      "id": "dbe476a7-084f-54d8-81d2-08647def5288",
+      "name": "Phoebe",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 4,
+        "Colour": "black"
+      },
+      "statuses": ["paint scratched"]
+    },
+    {
+      "id": "11ec2334-22ed-59b1-94da-2ae7ac138a4a",
+      "name": "Winfield",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 5,
+        "Colour": "black"
+      },
+      "statuses": ["loose screw", "loose screw", "loose screw"]
+    },
+    {
+      "id": "bb9a6d62-85fa-534f-9ccf-602017cbf745",
+      "name": "Destiney",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 1,
+        "Colour": "white"
+      },
+      "statuses": ["rusty", "paint scratched", "loose screw"]
+    },
+    {
+      "id": "122460d8-c7c3-5e13-8a51-5bff00a198f0",
+      "name": "Melyna",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": true,
+        "numberOfRotors": 4,
+        "Colour": "white"
+      },
+      "statuses": ["on fire", "paint scratched", "loose screw"]
+    },
+    {
+      "id": "0a0565c9-9637-59ae-95be-104f784b20ee",
+      "name": "Heloise",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 13,
+        "Colour": "black"
+      },
+      "statuses": ["paint scratched", "paint scratched", "rusty"]
+    },
+    {
+      "id": "6c663487-57cd-533d-a2fd-0400abebd201",
+      "name": "Marquis",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": true,
+        "hasTracks": true,
+        "numberOfRotors": 15,
+        "Colour": "black"
+      },
+      "statuses": ["on fire", "loose screw", "loose screw"]
+    },
+    {
+      "id": "6d237716-4f0a-5542-89d9-efd9981f93d7",
+      "name": "Carmine",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 15,
+        "Colour": "red"
+      },
+      "statuses": ["loose screw", "rusty", "paint scratched"]
+    },
+    {
+      "id": "9168d24d-7bf4-5da8-a199-1b3b3acc7ecb",
+      "name": "Terrill",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": false,
+        "hasTracks": true,
+        "numberOfRotors": 16,
+        "Colour": "red"
+      },
+      "statuses": ["on fire", "paint scratched", "rusty", "loose screw"]
+    },
+    {
+      "id": "02c8f207-8e34-587e-ab03-098f5651985f",
+      "name": "Santiago",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": false,
+        "hasTracks": false,
+        "numberOfRotors": 13,
+        "Colour": "blue"
+      },
+      "statuses": ["on fire"]
+    },
+    {
+      "id": "b2081823-71c2-5081-ae11-8af4555873a7",
+      "name": "Hugh",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 5,
+        "Colour": "black"
+      },
+      "statuses": ["rusty", "rusty", "on fire"]
+    }
+  ]
+}
