@@ -1,15 +1,17 @@
-import React, { FC, useEffect } from "react";
+import React, { FC, useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { RootState } from '../../app/store';
 import RobotsDataService from "../../services/robots.service";
 import { RobotData } from '../../types/robot.type';
 import { setRobotData, doExtinguish, checkExtinguish, doRecycle } from "../../app/actions/robots.action";
+import Robot from "../molecules/robot.component";
 
 type Props = {};
 
 const RobotList: FC<Props> = (props) => {
     const { robotList, retrievedBatch, hasExtinguished, hasRecycled } = useSelector<RootState, any>((state) => state.robots);
     const dispatch = useDispatch();
+    const [forShipment, setForShipment] = useState([]);
 
     const retrieveRobots = () => {
         RobotsDataService.getAll()
@@ -60,13 +62,6 @@ const RobotList: FC<Props> = (props) => {
                 || (robot.configuration.hasSentience && robot.statuses.find((status: string) => status !== "loose screws"))
                 || (robot.statuses.find((status: string) => status === "on fire"))
             ) {
-                console.log(
-                    (robot.configuration.numberOfRotors > 8 || robot.configuration.numberOfRotors < 3),
-                    (robot.configuration.numberOfRotors > 0 && robot.configuration.colour === "blue"),
-                    (robot.configuration.hasWheels && robot.configuration.hasTracks),
-                    (robot.configuration.hasWheels && robot.statuses.find((status: string) => status !== "rusty")),
-                    (robot.configuration.hasSentience && robot.statuses.find((status: string) => status !== "loose screws")),
-                    (robot.statuses.find((status: string) => status === "on fire")));
                 recycledRobots.push(robot.id);
             } else {
                 passedRobots.push(robot);
@@ -84,7 +79,6 @@ const RobotList: FC<Props> = (props) => {
             .catch((e: Error) => {
               console.log(e);
             })
-        } else {
         }
     }
 
@@ -116,14 +110,36 @@ const RobotList: FC<Props> = (props) => {
     // display 2 sets of qa approved lists
 
     return (
-        <div style={{textAlign: "left"}}>
-            {
-                robotList && robotList.map((robot: RobotData, index: number) => (
-                    <div key={robot.id}>
-                        {robot.name} {robot.configuration.hasSentience.toString()} {[...robot.statuses].map((status: string, index: number) => `${status} `)}
-                    </div>
-                ))
-            }
+        <div className="robot-list row">
+            <div className="col-md-6">
+                <div>
+                    <h3>Passed QA</h3>
+                    {
+                        robotList && robotList.map((robot: RobotData, index: number) => {
+                            if (robot.statuses.length === 0) {
+                                return (
+                                    <Robot key={robot.id} robot={robot} />
+                                );
+                            }
+                        })
+                    }
+                </div>
+                <div>
+                    <h3>Spare</h3>
+                    {
+                        robotList && robotList.map((robot: RobotData, index: number) => {
+                            if (robot.statuses.length > 0) {
+                                return (
+                                    <Robot key={robot.id} robot={robot} />
+                                );
+                            }
+                        })
+                    }
+                </div>
+            </div>
+            <div className="col-md-6">
+                <h3>For Shipment</h3>
+            </div>
         </div>
     );
 };

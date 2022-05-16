@@ -1,0 +1,23 @@
+.robot {
+    padding: 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 12px 0px;
+
+    > * {
+        margin: 10px 0px;
+    }
+
+    &__configuration {
+        padding: 8px;
+        border: 1px solid rgb(216, 216, 216);
+        border-radius: 5px;
+        margin: 10px 0px;
+
+        &__title {
+            margin-bottom: 6px;
+            padding-bottom: 6px;
+            border-bottom: 1px solid rgb(216, 216, 216);
+        }
+    }
+}
