@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { RootState } from '../../app/store';
 import RobotsDataService from "../../services/robots.service";
 import { RobotData } from '../../types/robot.type';
-import { setRobotData, doExtinguish, checkExtinguish } from "../../app/actions/robots.action";
+import { setRobotData, doExtinguish, checkExtinguish, doRecycle } from "../../app/actions/robots.action";
 
 type Props = {};
 
@@ -48,6 +48,46 @@ const RobotList: FC<Props> = (props) => {
         dispatch(checkExtinguish());
     }
 
+    const recycleRobots = () => {
+        const recycledRobots: Array<string> = [];
+        const passedRobots: Array<RobotData> = [];
+        robotList.forEach((robot: RobotData, index: number) => {
+            if (
+                (robot.configuration.numberOfRotors > 8 || robot.configuration.numberOfRotors < 3)
+                || (robot.configuration.numberOfRotors > 0 && robot.configuration.colour === "blue")
+                || (robot.configuration.hasWheels && robot.configuration.hasTracks)
+                || (robot.configuration.hasWheels && robot.statuses.find((status: string) => status !== "rusty"))
+                || (robot.configuration.hasSentience && robot.statuses.find((status: string) => status !== "loose screws"))
+                || (robot.statuses.find((status: string) => status === "on fire"))
+            ) {
+                console.log(
+                    (robot.configuration.numberOfRotors > 8 || robot.configuration.numberOfRotors < 3),
+                    (robot.configuration.numberOfRotors > 0 && robot.configuration.colour === "blue"),
+                    (robot.configuration.hasWheels && robot.configuration.hasTracks),
+                    (robot.configuration.hasWheels && robot.statuses.find((status: string) => status !== "rusty")),
+                    (robot.configuration.hasSentience && robot.statuses.find((status: string) => status !== "loose screws")),
+                    (robot.statuses.find((status: string) => status === "on fire")));
+                recycledRobots.push(robot.id);
+            } else {
+                passedRobots.push(robot);
+            }
+        })
+        console.log(recycledRobots, passedRobots);
+    
+        if (recycledRobots.length > 0) {
+            RobotsDataService.recycle({
+                recycleRobots: recycledRobots
+            }).then((response: any) => {
+                console.log(passedRobots);
+                dispatch(doRecycle(passedRobots));
+            })
+            .catch((e: Error) => {
+              console.log(e);
+            })
+        } else {
+        }
+    }
+
     useEffect(() => {
         retrieveRobots();
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -67,6 +107,7 @@ const RobotList: FC<Props> = (props) => {
     useEffect(() => {
         if (hasExtinguished) {
             if (!hasRecycled) {
+                recycleRobots();
             }
         }
     // eslint-disable-next-line react-hooks/exhaustive-deps
