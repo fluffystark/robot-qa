@@ -14,7 +14,7 @@ export function doExtinguish(id: number) {
     };
 }
 
-export function doRecycle(data: Array<string>) {
+export function doRecycle(data: any) {
     return {
         type: ActionTypes.DO_RECYCLE,
         data,

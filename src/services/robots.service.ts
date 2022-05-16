@@ -8,7 +8,7 @@ class RobotDataService {
   extinguish(id: string) {
     return http.post<boolean>(`/robots/${id}/extinguish`);
   }
-  recycle(data: [string]) {
+  recycle(data: { recycleRobots: string[]}) {
     return http.post<boolean>(`/robots/recycle`, data);
   }
   createShipment(data: [string]) {

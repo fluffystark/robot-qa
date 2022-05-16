@@ -13,6 +13,12 @@ server.post('/robots/:version/extinguish', function (req, res) {
     res.jsonp(req.query)
 })
 
+server.post('/robots/recycle', function (req, res) {
+  // See https://github.com/typicode/lowdb
+      req.method = "GET"
+      res.jsonp(req.query)
+  })
+
 // Use default router
 server.use(router)
 server.listen(3000, () => {

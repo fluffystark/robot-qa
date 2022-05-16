@@ -6,9 +6,9 @@
       "configuration": {
         "hasSentience": false,
         "hasWheels": false,
-        "hasTracks": true,
-        "numberOfRotors": 1,
-        "Colour": "blue"
+        "hasTracks": false,
+        "numberOfRotors": 4,
+        "Colour": "red"
       },
       "statuses": ["rusty", "loose screw"]
     },
