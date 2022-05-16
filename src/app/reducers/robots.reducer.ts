@@ -5,6 +5,7 @@ import RobotsDataService from "../../services/robots.service";
 
 const defaultState = {
     robotList: [],
+    shipmentList: [],
     retrievedBatch: false,
     hasExtinguished: false,
     hasRecycled: false,

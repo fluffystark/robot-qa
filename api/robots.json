@@ -8,7 +8,7 @@
         "hasWheels": false,
         "hasTracks": false,
         "numberOfRotors": 4,
-        "Colour": "red"
+        "colour": "red"
       },
       "statuses": ["rusty", "loose screw"]
     },
@@ -20,7 +20,7 @@
         "hasWheels": false,
         "hasTracks": false,
         "numberOfRotors": 4,
-        "Colour": "blue"
+        "colour": "blue"
       },
       "statuses": ["loose screw", "paint scratched", "rusty", "on fire"]
     },
@@ -28,13 +28,13 @@
       "id": "63d4e8df-35bf-5ed7-b1d2-b7e25fa4d3c5",
       "name": "Cora",
       "configuration": {
-        "hasSentience": true,
-        "hasWheels": true,
+        "hasSentience": false,
+        "hasWheels": false,
         "hasTracks": false,
-        "numberOfRotors": 15,
-        "Colour": "blue"
+        "numberOfRotors": 4,
+        "colour": "red"
       },
-      "statuses": ["loose screw"]
+      "statuses": []
     },
     {
       "id": "cebd6aaf-2f51-525b-ae5b-b069827cd48c",
@@ -44,7 +44,7 @@
         "hasWheels": false,
         "hasTracks": true,
         "numberOfRotors": 14,
-        "Colour": "blue"
+        "colour": "blue"
       },
       "statuses": ["on fire", "rusty"]
     },
@@ -56,7 +56,7 @@
         "hasWheels": false,
         "hasTracks": true,
         "numberOfRotors": 13,
-        "Colour": "blue"
+        "colour": "blue"
       },
       "statuses": ["rusty"]
     },
@@ -68,7 +68,7 @@
         "hasWheels": false,
         "hasTracks": false,
         "numberOfRotors": 1,
-        "Colour": "black"
+        "colour": "black"
       },
       "statuses": ["rusty", "on fire", "paint scratched"]
     },
@@ -80,7 +80,7 @@
         "hasWheels": true,
         "hasTracks": false,
         "numberOfRotors": 11,
-        "Colour": "red"
+        "colour": "red"
       },
       "statuses": ["rusty", "on fire", "loose screw"]
     },
@@ -92,7 +92,7 @@
         "hasWheels": false,
         "hasTracks": false,
         "numberOfRotors": 12,
-        "Colour": "white"
+        "colour": "white"
       },
       "statuses": ["paint scratched"]
     },
@@ -104,7 +104,7 @@
         "hasWheels": true,
         "hasTracks": false,
         "numberOfRotors": 3,
-        "Colour": "blue"
+        "colour": "blue"
       },
       "statuses": ["on fire"]
     },
@@ -116,7 +116,7 @@
         "hasWheels": false,
         "hasTracks": false,
         "numberOfRotors": 6,
-        "Colour": "black"
+        "colour": "black"
       },
       "statuses": ["paint scratched", "rusty"]
     },
@@ -128,7 +128,7 @@
         "hasWheels": false,
         "hasTracks": true,
         "numberOfRotors": 6,
-        "Colour": "red"
+        "colour": "red"
       },
       "statuses": ["loose screw", "paint scratched", "rusty"]
     },
@@ -140,7 +140,7 @@
         "hasWheels": false,
         "hasTracks": false,
         "numberOfRotors": 2,
-        "Colour": "black"
+        "colour": "black"
       },
       "statuses": ["loose screw", "rusty"]
     },
@@ -152,7 +152,7 @@
         "hasWheels": false,
         "hasTracks": true,
         "numberOfRotors": 2,
-        "Colour": "blue"
+        "colour": "blue"
       },
       "statuses": ["rusty", "paint scratched"]
     },
@@ -164,7 +164,7 @@
         "hasWheels": false,
         "hasTracks": true,
         "numberOfRotors": 4,
-        "Colour": "blue"
+        "colour": "blue"
       },
       "statuses": ["paint scratched", "rusty"]
     },
@@ -176,7 +176,7 @@
         "hasWheels": true,
         "hasTracks": true,
         "numberOfRotors": 3,
-        "Colour": "red"
+        "colour": "red"
       },
       "statuses": ["on fire", "paint scratched", "rusty"]
     },
@@ -188,7 +188,7 @@
         "hasWheels": false,
         "hasTracks": true,
         "numberOfRotors": 5,
-        "Colour": "white"
+        "colour": "white"
       },
       "statuses": ["loose screw"]
     },
@@ -200,7 +200,7 @@
         "hasWheels": true,
         "hasTracks": false,
         "numberOfRotors": 3,
-        "Colour": "red"
+        "colour": "red"
       },
       "statuses": ["on fire", "rusty"]
     },
@@ -212,7 +212,7 @@
         "hasWheels": false,
         "hasTracks": false,
         "numberOfRotors": 11,
-        "Colour": "black"
+        "colour": "black"
       },
       "statuses": ["on fire"]
     },
@@ -224,7 +224,7 @@
         "hasWheels": true,
         "hasTracks": false,
         "numberOfRotors": 5,
-        "Colour": "black"
+        "colour": "black"
       },
       "statuses": ["rusty", "on fire"]
     }
