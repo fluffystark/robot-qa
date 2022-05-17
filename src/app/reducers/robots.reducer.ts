@@ -1,7 +1,5 @@
-import { builtinModules } from "module";
 import ActionTypes from "../../constants/ActionTypes";
 import { RobotDefaultState, RobotData } from "../../types/robot.type";
-import RobotsDataService from "../../services/robots.service";
 
 const defaultState = {
     robotList: [],
@@ -19,6 +17,43 @@ export function extinguish(list: Array<RobotData>, id: number) {
     }
 
     return list
+}
+
+export function addToShipment(robotList: Array<RobotData>,shipmentList: Array<string>, id: string) {
+    const robotIndex = robotList.findIndex( robot => robot.id === id );
+    const robot = {...robotList[robotIndex]};
+
+    if (robot && !robot.forShipment) {
+        robot.forShipment = true;
+        shipmentList.push(id);
+        robotList[robotIndex] = robot;
+    }
+    return {
+        robotList: [
+            ...robotList
+        ],
+        shipmentList: [
+            ...shipmentList
+        ]
+    };
+}
+
+export function removeFromShipment(robotList: Array<RobotData>,shipmentList: Array<string>, id: string) {
+    const robotIndex = robotList.findIndex( robot => robot.id === id );
+    const shipmentIndex = shipmentList.findIndex( robotId => robotId === id );
+    const robot = {...robotList[robotIndex]};
+
+    robot.forShipment = false;
+    shipmentList.splice(shipmentIndex, 1)
+    robotList[robotIndex] = robot;
+    return {
+        robotList: [
+            ...robotList
+        ],
+        shipmentList: [
+            ...shipmentList
+        ]
+    };
 }
 
 function robotReducer(state : RobotDefaultState = defaultState, action: any) {
@@ -46,6 +81,28 @@ function robotReducer(state : RobotDefaultState = defaultState, action: any) {
                 ...state,
                 robotList: action.data,
                 hasRecycled: true,
+            };
+        case ActionTypes.ADD_TO_SHIPMENT:
+            return {
+                ...state,
+                ...addToShipment(
+                    [...state.robotList],
+                    [...state.shipmentList],
+                    action.id
+                )
+            };
+        case ActionTypes.REMOVE_FROM_SHIPMENT:
+            return {
+                ...state,
+                ...removeFromShipment(
+                    [...state.robotList],
+                    [...state.shipmentList],
+                    action.id
+                )
+            };
+        case ActionTypes.SEND_SHIPMENT:
+            return {
+                ...defaultState,
             };
         default:
             return state;

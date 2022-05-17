@@ -1,5 +1,7 @@
 import React, { FC } from "react";
 import { RobotData } from '../../types/robot.type';
+import { useDispatch } from "react-redux";
+import { addToShipment, removeFromShipment } from "../../app/actions/robots.action";
 
 type Props = {
     robot: RobotData
@@ -7,6 +9,7 @@ type Props = {
 
 const Robot: FC<Props> = (props) => {
     const { robot } = props;
+    const dispatch = useDispatch();
 
     return (
         <div className="robot">
@@ -24,7 +27,17 @@ const Robot: FC<Props> = (props) => {
                 <div>numberOfRotors: <strong>{robot.configuration.numberOfRotors}</strong></div>
                 <div>colour: <strong>{robot.configuration.colour}</strong></div>
             </div>
-            <button>Add to shipment</button>
+            {
+                robot.forShipment ? (
+                    <button onClick={() => dispatch(removeFromShipment(robot.id))}>
+                        Remove from shipment
+                    </button>
+                ) : (
+                    <button onClick={() => dispatch(addToShipment(robot.id))}>
+                        Add to shipment
+                    </button>
+                )
+            }
         </div>
     );
 };

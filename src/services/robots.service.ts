@@ -12,7 +12,7 @@ class RobotDataService {
     return http.post<boolean>(`/robots/recycle`, data);
   }
   createShipment(data: [string]) {
-    return http.put<any>(`/shipments/create`, data);
+    return http.put<any>(`/shipment/create`, data);
   }
 }
 export default new RobotDataService();

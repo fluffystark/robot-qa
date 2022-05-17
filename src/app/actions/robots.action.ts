@@ -26,3 +26,24 @@ export function checkExtinguish() {
         type: ActionTypes.CHECK_EXTINGUISH
     };
 }
+
+export function addToShipment(id: string) {
+    return {
+        type: ActionTypes.ADD_TO_SHIPMENT,
+        id,
+    };
+}
+
+export function removeFromShipment(id: string) {
+    return {
+        type: ActionTypes.REMOVE_FROM_SHIPMENT,
+        id,
+    };
+}
+
+export function createShipment() {
+    return {
+        type: ActionTypes.SEND_SHIPMENT,
+
+    };
+}
