@@ -19,7 +19,7 @@ The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
 ## Unit tests
-### `npm test`
+    npm test
 
 ### Restrictions and limitations
 
