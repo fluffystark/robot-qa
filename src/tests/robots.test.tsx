@@ -44,6 +44,7 @@ it('should create an action with SET_ROBOTS_DATA type', () => {
 it('should handle setting robot list', () => {
   const initialState = {
       robotList: [],
+      shipmentList: [],
       retrievedBatch: false,
       hasExtinguished: false,
       hasRecycled: false,
@@ -109,6 +110,7 @@ it('should handle extinguish', () => {
                 "statuses": ["loose screw", "paint scratched", "rusty", "on fire"]
               },
         ],
+        shipmentList: [],
         retrievedBatch: true,
         hasExtinguished: false,
         hasRecycled: false,
@@ -129,6 +131,7 @@ it('should handle extinguish', () => {
                 "statuses": ["loose screw", "paint scratched", "rusty"]
               },
         ],
+        shipmentList: [],
         retrievedBatch: true,
         hasExtinguished: false,
         hasRecycled: false,

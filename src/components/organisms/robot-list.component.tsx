@@ -1,17 +1,14 @@
-import React, { FC, useEffect, useState } from "react";
+import { FC, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { RootState } from '../../app/store';
 import RobotsDataService from "../../services/robots.service";
 import { RobotData } from '../../types/robot.type';
-import { setRobotData, doExtinguish, checkExtinguish, doRecycle } from "../../app/actions/robots.action";
+import { setRobotData, doExtinguish, checkExtinguish, doRecycle,createShipment } from "../../app/actions/robots.action";
 import Robot from "../molecules/robot.component";
 
-type Props = {};
-
-const RobotList: FC<Props> = (props) => {
-    const { robotList, retrievedBatch, hasExtinguished, hasRecycled } = useSelector<RootState, any>((state) => state.robots);
+const RobotList: FC = () => {
+    const { robotList, retrievedBatch, hasExtinguished, hasRecycled, shipmentList } = useSelector<RootState, any>((state) => state.robots);
     const dispatch = useDispatch();
-    const [forShipment, setForShipment] = useState([]);
 
     const retrieveRobots = () => {
         RobotsDataService.getAll()
@@ -82,6 +79,18 @@ const RobotList: FC<Props> = (props) => {
         }
     }
 
+    // Send shipment function
+    const sendShipment = () => {
+        RobotsDataService.createShipment(shipmentList)
+        .then((response: any) => {
+            dispatch(createShipment());
+            retrieveRobots();
+        })
+        .catch((e: Error) => {
+          console.log(e);
+        });
+    }
+
     useEffect(() => {
         retrieveRobots();
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -107,38 +116,58 @@ const RobotList: FC<Props> = (props) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [hasExtinguished]);
 
-    // display 2 sets of qa approved lists
-
     return (
         <div className="robot-list row">
             <div className="col-md-6">
-                <div>
+                <div className="robot-list__sublist passed">
                     <h3>Passed QA</h3>
                     {
-                        robotList && robotList.map((robot: RobotData, index: number) => {
-                            if (robot.statuses.length === 0) {
+                        robotList && robotList.length > 0 ? robotList.map((robot: RobotData, index: number) => {
+                            if (robot.statuses.length === 0 && !robot.forShipment) {
                                 return (
                                     <Robot key={robot.id} robot={robot} />
                                 );
+                            } else {
+                                return null;
                             }
-                        })
+                        }) : (
+                            <div>No Robot qualified for Passed QA</div>
+                        )
                     }
                 </div>
-                <div>
-                    <h3>Spare</h3>
+                <hr/>
+                <div className="robot-list__sublist spare">
+                    <h3>Factory Seconds</h3>
                     {
-                        robotList && robotList.map((robot: RobotData, index: number) => {
-                            if (robot.statuses.length > 0) {
+                        robotList && robotList.length > 0 ? robotList.map((robot: RobotData, index: number) => {
+                            if (robot.statuses.length > 0 && !robot.forShipment) {
                                 return (
                                     <Robot key={robot.id} robot={robot} />
                                 );
+                            } else {
+                                return null;
                             }
-                        })
+                        }) : (
+                            <div>No Robot qualified for Factory Seconds</div>
+                        )
                     }
                 </div>
             </div>
             <div className="col-md-6">
-                <h3>For Shipment</h3>
+                <h3>Ready to Ship</h3>
+                <button onClick={sendShipment} disabled={shipmentList && shipmentList.length === 0}>
+                    Send shipment
+                </button>
+                {
+                    shipmentList && shipmentList.length > 0 ? shipmentList.map((id: string, index: number) => {
+                        const robot = robotList.find( (robot: RobotData, index: number) => robot.id === id );
+                        return (
+                            <Robot key={robot.id} robot={robot} />
+                        );
+                    }) : (
+                        <div>No Robots for Shipment</div>
+                    )
+                }
             </div>
         </div>
     );

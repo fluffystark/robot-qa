@@ -9,10 +9,12 @@ export interface RobotData {
         colour: string ,
     },
     statuses: string[],
+    forShipment?: boolean,
 }
 
 export interface RobotDefaultState {
     robotList: Array<RobotData>,
+    shipmentList: Array<string>,
     retrievedBatch: boolean,
     hasExtinguished: boolean,
     hasRecycled: boolean,
